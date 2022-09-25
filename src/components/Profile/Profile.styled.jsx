@@ -2,12 +2,16 @@ import styled from 'styled-components';
 export const ProfileCard = styled.div`
   width: 200px;
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: ${p => p.theme.space[5]}px;
   padding-top: 10px;
-
+  cursor: pointer;
+  transition: transform 250ms linear;
   background-color: ${p => p.theme.colors.white};
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
+  :hover {
+    transform: scale(1.1);
+  }
 `;
 export const ProfileDescription = styled.div`
   display: flex;
@@ -27,12 +31,14 @@ export const ProfileAvatar = styled.img`
 `;
 export const ProfileUsername = styled.p`
   margin-bottom: ${p => p.theme.space[2]}px;
+  font-weight: ${p => p.theme.fontWeight.bolt};
 `;
 export const ProfileTag = styled.p`
   margin-bottom: ${p => p.theme.space[2]}px;
 `;
 export const ProfileLocation = styled.p`
   margin-bottom: ${p => p.theme.space[3]}px;
+  font-weight: ${p => p.theme.fontWeight.bolt};
 `;
 export const ProfileStatsList = styled.ul`
   display: flex;
@@ -43,10 +49,6 @@ export const ProfileStatsList = styled.ul`
 `;
 
 export const StatsItem = styled.li`
-  cursor: pointer;
-  /* :not(:last-child) {
-    margin-right: ${p => p.theme.space[3]}px;
-  } */
   padding-bottom: 4px;
   padding-top: 4px;
 

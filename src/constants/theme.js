@@ -1,6 +1,8 @@
 export const theme = {
   colors: {
     white: '#ffffff',
+    offline: 'red',
+    online: 'green',
     backGroundColor: '#E7ECF2',
     secondaryBackGroundColor: '#F3F6F9',
     primaryText: '#1F3349',
