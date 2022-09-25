@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Solod-S/goit-react-hw-01-components/static/css/main.93a6ed42.css",
+    "main.js": "/Solod-S/goit-react-hw-01-components/static/js/main.0a469e90.js",
+    "index.html": "/Solod-S/goit-react-hw-01-components/index.html",
+    "main.93a6ed42.css.map": "/Solod-S/goit-react-hw-01-components/static/css/main.93a6ed42.css.map",
+    "main.0a469e90.js.map": "/Solod-S/goit-react-hw-01-components/static/js/main.0a469e90.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.93a6ed42.css",
+    "static/js/main.0a469e90.js"
+  ]
+}
