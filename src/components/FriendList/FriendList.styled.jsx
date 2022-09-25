@@ -1,5 +1,7 @@
 import styled from 'styled-components';
-export const FriendsListCard = styled.ul``;
+export const FriendsListCard = styled.ul`
+  margin-bottom: ${p => p.theme.space[5]}px;
+`;
 export const FriendProfile = styled.li`
   padding: ${p => p.theme.space[3]}px;
   width: 250px;

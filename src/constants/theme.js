@@ -3,14 +3,13 @@ export const theme = {
     white: '#ffffff',
     offline: 'red',
     online: 'green',
+    blue: '#00BCD5',
     backGroundColor: '#E7ECF2',
     secondaryBackGroundColor: '#F3F6F9',
     primaryText: '#1F3349',
     secondaryText: '#98A4AF',
   },
   spacing: value => `${4 * value}px`,
-  // padding: ${props => props.theme.spacing(4)};
-  // 4x4
   space: [0, 2, 4, 8, 16, 32, 64, 128, 256],
   fonts: {
     btn: 'system-ui, sans-serif',
