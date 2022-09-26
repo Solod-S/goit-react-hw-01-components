@@ -2,7 +2,7 @@ import '@csstools/normalize.css';
 import 'Css/my_preset.css';
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { App } from './components/App/App';
+import { App } from './components/App.jsx';
 import { ThemeProvider } from 'styled-components';
 import { theme } from './constants/theme';
 
