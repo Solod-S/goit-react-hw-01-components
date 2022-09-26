@@ -14,6 +14,9 @@ export const TransactionTableRow = styled.tr`
   :not(:last-child) {
     margin-bottom: ${p => p.theme.space[3]}px;
   }
+  :nth-child(2n) {
+    background-color: ${p => p.theme.colors.thrdBackGroundColor};
+  }
   :hover {
     transform: scale(1.2);
   }

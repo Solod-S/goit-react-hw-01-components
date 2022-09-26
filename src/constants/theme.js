@@ -6,6 +6,7 @@ export const theme = {
     blue: '#00BCD5',
     backGroundColor: '#E7ECF2',
     secondaryBackGroundColor: '#F3F6F9',
+    thrdBackGroundColor: '#ECF1F3',
     primaryText: '#1F3349',
     secondaryText: '#98A4AF',
   },
