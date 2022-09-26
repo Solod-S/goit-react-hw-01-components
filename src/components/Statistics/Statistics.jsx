@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import { Box } from '../Box/Box';
+import { Box } from 'components/Box/Box';
 import {
   StatisticsCard,
   StatisticsTitle,
@@ -39,6 +39,6 @@ Statisics.prototypes = {
       id: PropTypes.string.isRequired,
       label: PropTypes.string.isRequired,
       percentage: PropTypes.number.isRequired,
-    }),
+    })
   ),
 };
