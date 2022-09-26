@@ -1,5 +1,5 @@
 import '@csstools/normalize.css';
-import 'Css/my_preset.css';
+import './Css/my_preset.css';
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { App } from './components/App/App';
@@ -11,5 +11,5 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <ThemeProvider theme={theme}>
       <App />
     </ThemeProvider>
-  </React.StrictMode>
+  </React.StrictMode>,
 );
