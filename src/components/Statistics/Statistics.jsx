@@ -9,7 +9,6 @@ import {
   StatisticsPercentage,
 } from './Statistics.styled';
 export const Statisics = ({ title, data }) => {
-  // const { id, label, percentage } = data;
   return (
     <StatisticsCard>
       {title && <StatisticsTitle>{title}</StatisticsTitle>}
